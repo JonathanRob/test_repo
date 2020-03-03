@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="None">
+  
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Overview - Gene Set Analysis Matlab</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Overview";
+    var mkdocs_page_input_path = "index.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="js/jquery-2.1.1.min.js" defer></script>
+  <script src="js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/matlab.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="." class="icon icon-home"> Gene Set Analysis Matlab</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href=".">Overview</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#gene-set-analysis-matlab-gsam">Gene Set Analysis Matlab (GSAM)</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#user-guide">User guide</a></li>
+        
+            <li><a class="toctree-l3" href="#package-contents">Package contents</a></li>
+        
+            <li><a class="toctree-l3" href="#citation">Citation</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="installation/">Installation</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="userguide/">User guide</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="metgenesets/">Metabolic gene sets</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="visualization/">Visualization</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href=".">Gene Set Analysis Matlab</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Overview</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="gene-set-analysis-matlab-gsam">Gene Set Analysis Matlab (GSAM)</h1>
+<p><img alt="logo" src="img/logo.png" /></p>
+<p>Gene set analysis (GSA) and visualization of results. This package was inspired by (and based on) the <a href="https://bioconductor.org/packages/release/bioc/html/piano.html">Piano package for R</a>.</p>
+<h2 id="user-guide"><a href="userguide/">User guide</a></h2>
+<p>See the <a href="userguide/">user guide</a> for some examples on using GSAM.</p>
+<h2 id="package-contents">Package contents</h2>
+<h3 id="run-a-gene-set-analysis-gsa">Run a gene set analysis (GSA)</h3>
+<ul>
+<li><a href="https://github.com/JonathanRob/GeneSetAnalysisMatlab/blob/master/geneSetAnalysis.m"><code>geneSetAnalysis</code></a> - Run GSA</li>
+</ul>
+<h3 id="gene-set-collection-gsc-importexport">Gene set collection (GSC) import/export</h3>
+<ul>
+<li><a href="https://github.com/JonathanRob/GeneSetAnalysisMatlab/blob/master/importGSC.m"><code>importGSC</code></a> - Import gene set collection (GSC) from a <a href="https://software.broadinstitute.org/cancer/software/gsea/wiki/index.php/Data_formats#GMT:_Gene_Matrix_Transposed_file_format_.28.2A.gmt.29">.gmt</a> file.</li>
+<li><a href="https://github.com/JonathanRob/GeneSetAnalysisMatlab/blob/master/exportGSC.m"><code>exportGSC</code></a> - Export a GSC to a .gmt or .txt file.</li>
+<li><a href="https://github.com/JonathanRob/GeneSetAnalysisMatlab/blob/master/extractMetaboliteGSC.m"><code>extractMetaboliteGSC</code></a> - Extract metabolite gene sets from a genome-scale model.</li>
+<li><a href="https://github.com/JonathanRob/GeneSetAnalysisMatlab/blob/master/extractSubsystemGSC.m"><code>extractSubsystemGSC</code></a> - Extract subsystem gene sets from a genome-scale model.</li>
+</ul>
+<h3 id="visualization-of-results">Visualization of results</h3>
+<ul>
+<li><a href="https://github.com/JonathanRob/GeneSetAnalysisMatlab/blob/master/GSAheatmap.m"><code>GSAheatmap</code></a> - Produce heatmap of single or multiple GSA results.</li>
+<li><a href="https://github.com/JonathanRob/GeneSetAnalysisMatlab/blob/master/genHeatMap.m"><code>genHeatMap</code></a> - Generic heatmap function (used by <code>GSAheatmap</code>).</li>
+<li><a href="https://github.com/JonathanRob/GeneSetAnalysisMatlab/blob/master/genHeatScatter.m"><code>genHeatScatter</code></a> - Generic heatscatter function.</li>
+</ul>
+<h3 id="additional-functions">Additional functions</h3>
+<ul>
+<li><a href="https://github.com/JonathanRob/GeneSetAnalysisMatlab/blob/master/adjust_pvalues.m"><code>adjust_pvalues</code></a> - Adjust p-values for false discovery rate (FDR) (used by <code>geneSetAnalysis</code>).</li>
+<li><a href="https://github.com/JonathanRob/GeneSetAnalysisMatlab/blob/master/custom_cmap.m"><code>custom_cmap</code></a> - Create or load a custom colormap (used by heatmap functions).</li>
+<li><a href="https://github.com/JonathanRob/GeneSetAnalysisMatlab/blob/master/modifyOptSettings.m"><code>modifyOptSettings</code></a> - Helper function for assigning optional parameters.</li>
+</ul>
+<h2 id="citation">Citation</h2>
+<p><em>Manuscript in preparation.</em></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="installation/" class="btn btn-neutral float-right" title="Installation">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+        <span style="margin-left: 15px"><a href="installation/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 1.0.4
+Build Date UTC : 2020-03-03 10:37:39
+-->
