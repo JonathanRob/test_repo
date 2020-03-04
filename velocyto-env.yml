@@ -3,6 +3,7 @@ channels:
   - bioconda
   - anaconda
   - defaults
+  - conda-forge
 dependencies:
   - blas=1.0
   - bzip2=1.0.8
