@@ -12,6 +12,7 @@ dependencies:
  - bioconductor-scran
  - bioconductor-tradeseq
  - libgfortran
+ - libopenblas=0.3.7
  - r-bookdown
  - r-hdf5r=1.2.0
  - r-optparse
