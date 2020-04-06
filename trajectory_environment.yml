@@ -7,15 +7,18 @@ channels:
  - rdonnelly
 dependencies:
  - rstudio=1.1.456
+ - bioconductor-destiny
  - bioconductor-scater
  - bioconductor-scran
  - bioconductor-tradeseq
+ - libgfortran
+ - r-bookdown
+ - r-hdf5r=1.2.0
+ - r-optparse
+ - r-seurat=3.0.1
  - r-umap=0.2
+ - r-uwot
  - umap-learn=0.3.7
  - wget
- - r-hdf5r=1.2.0
- - r-bookdown
- - r-seurat=3.0.1
- - r-uwot
- - libgfortran
+ 
  
