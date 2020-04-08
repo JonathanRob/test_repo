@@ -7,12 +7,9 @@ channels:
 dependencies:
  - r-base=3.5
  - rstudio=1.1.456
- - bioconductor-biomart=2.38
- - bioconductor-flowpeaks=1.28
- - bioconductor-genomeinfodbdata=1.2.0
  - bioconductor-singlecellexperiment=1.4
  - bioconductor-sva=3.30
-# - bioconductor-slingshot=1.2.0
+ - bioconductor-slingshot=1.2.0
  - bioconductor-destiny=2.12.0
  - r-devtools=2.1.0
  - r-biocmanager=1.30
