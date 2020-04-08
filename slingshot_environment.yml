@@ -5,7 +5,6 @@ channels:
  - defaults
 dependencies:
  - r-base=3.5.1
- - rstudio=1.1.456
  - bioconductor-biomart=2.38.0
  - bioconductor-flowpeaks=1.28.1
  - bioconductor-genomeinfodbdata=1.2.0
