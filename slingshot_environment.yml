@@ -1,0 +1,32 @@
+name: slingshot
+channels:
+ - bioconda
+ - conda-forge
+ - defaults
+dependencies:
+ - r-base=3.5.1
+ - rstudio=1.1.456
+ - bioconductor-biomart=2.38.0
+ - bioconductor-flowpeaks=1.28.1
+ - bioconductor-genomeinfodbdata=1.2.0
+ - bioconductor-singlecellexperiment=1.4.0
+ - bioconductor-sva=3.30.1
+ - bioconductor-slingshot=1.0.0
+ - r-devtools=2.1.0
+ - r-biocmanager=1.30.10
+ - r-data.table=1.11.6
+ - r-dplyr=0.8.5
+ - r-fields=9.6.1
+ - r-igraph=1.2.4.2
+ - r-ineq=0.2_13
+ - r-optparse=1.6.4
+ - r-rafalib=1.0.0
+ - r-rcolorbrewer=1.1_2
+ - r-scales=1.0.0
+ - r-seurat=3.0.1
+ - r-vegan=2.5_6
+ - r-hdf5r=1.2.0
+ - r-umap=0.2.4.1
+ - r-grr=0.9.5
+ - r-pbmcapply=1.4.1
+ - wget=1.19.4
