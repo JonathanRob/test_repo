@@ -22,7 +22,6 @@ dependencies:
  - r-rafalib=1.0.0
  - r-rcolorbrewer=1.1_2
  - r-scales=1.0.0
- - r-seurat=3.0.1
  - r-vegan=2.5_6
  - r-hdf5r=1.2.0
  - r-umap=0.2.4.1
