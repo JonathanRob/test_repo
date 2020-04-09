@@ -15,7 +15,7 @@ dependencies:
  - r-hdf5r
  - r-optparse
  - r-seurat=3.0.2
- - r-stringi=1.4.3
+ - r-stringi=1.4.3=r36h29659fb_0
  - r-umap
  - r-uwot
  - wget
