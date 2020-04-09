@@ -1,6 +1,7 @@
 name: velocyto-env
 channels:
   - defaults
+  - anaconda
 dependencies:
   - click=7.1.1
   - cython=0.29.15
